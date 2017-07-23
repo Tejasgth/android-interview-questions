@@ -121,34 +121,13 @@
       last element inserted in the stack whereas queue removes the first element inserted in the queue.
       Functional implementaions(https://en.wikipedia.org/wiki/Queue_(abstract_data_type)#Purely_functional_implementation)
     
-    ![Queue](https://en.wikipedia.org/wiki/Queue_(abstract_data_type)#/media/File:Data_Queue.svg.png)
+    ![Queue](https://upload.wikimedia.org/wikipedia/commons/5/52/Data_Queue.svg)
 
-    <table>
-            <tr>
-                <th>Algorithm</th>
-                <th>Average</th>
-                <th>Worst Case</th>
-            </tr>
-            <tr>
-                <td>Search</td>
-                <td>O(n)</td>
-                <td>O(n)</td>
-            </tr>
-            <tr>
-                <td>Insert (Push)</td>
-                <td>O(1)</td>
-                <td>O(1)</td>
-            </tr>
-            <tr>
-                <td>Delete (Pop)</td>
-                <td>O(1)</td>
-                <td>O(1)</td>
-            </tr>
-           
-        </table>
-         
-
-
+        | Algorithm | Average | Worst Case |
+        |:---------:|:-------:|:----------:|
+        | Search    | O(n)    | O(n)       |
+        | Insert    | O(1)    | O(1)       |
+        | Delete    | O(1)    | O(1)       |
 
 * PriorityQueue
 * Dynamic Programming
