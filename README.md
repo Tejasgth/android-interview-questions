@@ -73,7 +73,8 @@
     inserted into the stack without removing it is called Top. [The most common way to implement a
      stack is by using a LinkedList, but there are also StackArray (implemented with an array) 
      which does not replace null entries, and there is also a Vector implementation that does 
-     replace null entries.](https://en.wikibooks.org/wiki/Data_Structures/Stacks_and_Queues#Performance_Analysis)
+     replace null entries.](https://en.wikibooks.org/wiki/Data_Structures/Stacks_and_Queues#Performance_Analysis).
+
      
         <table>
             <tr>
@@ -112,6 +113,25 @@
             </tr>
         </table>
 * Queue
+    - A queue is a linear datastructure that follows FIFO methodology(First in First out).In queue the 
+      element that is inserted first will  be removed first . Queue posses two operations enqueue
+      (this operation  is used to add an element to the queue) and dequeue ( this operation is used to remove's 
+      the first element from the front of the queue).A queue is like a queue of customers in a shop ,the customer 
+      who enter's first get served first . The difference between stack and queue is in the removing pattern .Stack remove the 
+      last element inserted in the stack whereas queue removes the first element inserted in the queue.
+      Functional implementaions(https://en.wikipedia.org/wiki/Queue_(abstract_data_type)#Purely_functional_implementation)
+    
+    ![Queue](https://en.wikipedia.org/wiki/Queue_(abstract_data_type)#/media/File:Data_Queue.svg)
+         
+        | Algorithm | Average | Worst Case |
+        |:---------:|:-------:|:----------:|
+        | Search    | O(n)    | O(n)       |
+        | Insert    | O(1)    | O(1)       |
+        | Delete    | O(1)    | O(1)       |  
+
+
+
+
 * PriorityQueue
 * Dynamic Programming
 * String Manipulation
